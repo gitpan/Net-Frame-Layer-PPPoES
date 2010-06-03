@@ -1,5 +1,5 @@
 #
-# $Id: Makefile.PL,v 1.1 2007/04/01 17:16:47 gomor Exp $
+# $Id: Makefile.PL 4 2010-06-03 13:02:31Z gomor $
 #
 use ExtUtils::MakeMaker;
 
@@ -10,8 +10,9 @@ WriteMakefile(
    VERSION_FROM  => 'lib/Net/Frame/Layer/PPPoES.pm',
    LICENSE       => 'Artistic',
    ABSTRACT_FROM => 'lib/Net/Frame/Layer/PPPoES.pm',
-   AUTHOR        => 'GomoR <perl@gomor.org>',
+   AUTHOR        => 'GomoR <gomor-cpan_at_gomor.org>',
    PREREQ_PM     => {
-      Net::Frame => 0,
+      Net::Frame  => 0,
+      Bit::Vector => 0,
    },
 );

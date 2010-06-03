@@ -1,11 +1,11 @@
 #
-# $Id: PPPoES.pm,v 1.1 2007/04/01 17:16:47 gomor Exp $
+# $Id: PPPoES.pm 4 2010-06-03 13:02:31Z gomor $
 #
 package Net::Frame::Layer::PPPoES;
 use strict;
 use warnings;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 use Net::Frame::Layer qw(:consts);
 require Exporter;
@@ -254,7 +254,7 @@ Patrice E<lt>GomoRE<gt> Auffret
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2006-2007, Patrice E<lt>GomoRE<gt> Auffret
+Copyright (c) 2006-2010, Patrice E<lt>GomoRE<gt> Auffret
 
 You may distribute this module under the terms of the Artistic license.
 See LICENSE.Artistic file in the source distribution archive.
